@@ -7,5 +7,5 @@ function groupWordsByLength(words) {
     }, {});
 }
 
-const words = ["apple", "banana", "pear", "kiwi", "grape"];
+const words = ["maçã", "banana", "pêra", "kiwi", "uva"];
 console.log(groupWordsByLength(words));
