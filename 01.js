@@ -10,7 +10,7 @@ async function fetchProductData(id) {
     });
 }
 
-// Testing with try/catch
+
 async function testFetchProductData(id) {
     try {
         const result = await fetchProductData(id);
@@ -20,6 +20,6 @@ async function testFetchProductData(id) {
     }
 }
 
-// Example usage
-testFetchProductData(101); // Output after 2s: { id: 101, nome: "Notebook", preco: 3500 }
-testFetchProductData(-1);  // Output after 2s: Erro: ID do produto inválido
+
+testFetchProductData(101); 
+testFetchProductData(-1);  
